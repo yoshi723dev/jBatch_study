@@ -1,4 +1,4 @@
-package jBatch_study.rest;
+package batch.rest;
 
 import javax.batch.operations.JobOperator;
 import javax.batch.runtime.BatchRuntime;

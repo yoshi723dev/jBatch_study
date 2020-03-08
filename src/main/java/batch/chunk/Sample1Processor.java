@@ -1,10 +1,8 @@
-package jBatch_study.chunk;
+package batch.chunk;
 
 import javax.batch.api.chunk.ItemProcessor;
-import javax.enterprise.context.Dependent;
 
-@Dependent
-public class Sample1Proccessor implements ItemProcessor {
+public class Sample1Processor implements ItemProcessor {
 
 	/**
 	 * processItemメソッドで一定数(JOB設定ファイルを作成するにて設定方法を解説)のエンティティを返却した時点で
@@ -15,7 +13,7 @@ public class Sample1Proccessor implements ItemProcessor {
 	 */
 	@Override
 	public Object processItem(Object item) throws Exception {
-		return item;
+        return item;
 	}
 
 }

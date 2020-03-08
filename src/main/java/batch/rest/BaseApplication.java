@@ -1,4 +1,4 @@
-package jBatch_study.rest;
+package batch.rest;
 
 import javax.ws.rs.ApplicationPath;
 import javax.ws.rs.core.Application;

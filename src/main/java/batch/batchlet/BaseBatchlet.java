@@ -1,9 +1,7 @@
-package jBatch_study.batchlet;
+package batch.batchlet;
 
 import javax.batch.api.Batchlet;
-import javax.enterprise.context.Dependent;
 
-@Dependent
 public class BaseBatchlet implements Batchlet {
 
 	/**
@@ -16,8 +14,8 @@ public class BaseBatchlet implements Batchlet {
 	 */
 	@Override
 	public String process() throws Exception {
-
-		return "SUCCESS";
+		// TODO 自動生成されたメソッド・スタブ
+        return "SUCCESS";
 	}
 
 	/**
@@ -29,7 +27,7 @@ public class BaseBatchlet implements Batchlet {
 	 */
 	@Override
 	public void stop() throws Exception {
-
+		// TODO 自動生成されたメソッド・スタブ
 	}
 
 }

@@ -1,12 +1,10 @@
-package jBatch_study.chunk;
+package batch.chunk;
 
 import java.io.Serializable;
 import java.util.List;
 
 import javax.batch.api.chunk.AbstractItemWriter;
-import javax.enterprise.context.Dependent;
 
-@Dependent
 public class Sample1Writer extends AbstractItemWriter {
 
 	@Override
@@ -28,7 +26,6 @@ public class Sample1Writer extends AbstractItemWriter {
 	@Override
 	public void writeItems(List<Object> items) throws Exception {
 		// TODO 自動生成されたメソッド・スタブ
-
 	}
 
 	@Override

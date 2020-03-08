@@ -1,4 +1,4 @@
-package jBatch_study.chunk;
+package batch.chunk;
 
 import java.io.Serializable;
 
@@ -34,8 +34,7 @@ public class Sample1Reader implements ItemReader {
 	 */
 	@Override
 	public Object readItem() throws Exception {
-		// TODO 自動生成されたメソッド・スタブ
-		return null;
+        return null;
 	}
 
 	/**

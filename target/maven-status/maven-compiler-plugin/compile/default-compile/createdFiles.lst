@@ -1,0 +1,5 @@
+batch\chunk\Sample1Reader.class
+batch\batchlet\BaseBatchlet.class
+batch\rest\BaseApplication.class
+batch\chunk\Sample1Writer.class
+batch\rest\Sample1Resource.class

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<job id="Sample1Batch" xmlns="http://xmlns.jcp.org/xml/ns/javaee" version="1.0">
+	<step id="FirstStep" next="SecoundStep">
+		<chunk item-count="3">
+			<reader ref="Sample1Reader" />
+			<processor ref="Sample1Processor" />
+			<writer ref="SimpleWriter" />
+		</chunk>
+	</step>
+	<step id="SecondStep">
+		<batchlet ref="BaseBatchlet" />
+	</step>
+</job>
